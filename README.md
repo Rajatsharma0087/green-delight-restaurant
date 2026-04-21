@@ -1,48 +1,78 @@
 # 🍃 Green Delight Restaurant
 
-A modern, responsive website for a pure vegetarian restaurant in Shimla.
+A modern, fully responsive vegetarian restaurant website built with HTML5 and CSS3.
 
-## 🌟 Features
-- Clean and semantic HTML5 structure
-- Responsive navigation menu
-- Image gallery of popular dishes
-- Detailed menu with pricing
-- Contact form for reservations
-- Google Maps integration
-- Video section showcasing kitchen
+![Green Delight Preview](https://via.placeholder.com/800x400/27ae60/ffffff?text=Green+Delight+Restaurant)
+
+## 🚀 Latest Updates
+
+### Day 2 - CSS & Flexbox Implementation
+- ✅ Professional CSS styling with modern design
+- ✅ Flexbox layouts for navigation, gallery, and menu
+- ✅ Responsive design (mobile, tablet, desktop)
+- ✅ Smooth animations and hover effects
+- ✅ Google Fonts integration (Poppins)
+- ✅ Enhanced user experience
+
+### Day 1 - HTML Structure
+- ✅ Semantic HTML5 markup
+- ✅ Contact form with validation
+- ✅ Google Maps integration
+- ✅ SEO optimized meta tags
 
 ## 🛠️ Technologies Used
-- HTML5
-- Semantic HTML
-- Forms & Validation
-- Embedded Maps & Media
 
-## 📸 Preview
-Visit the live site: [Green Delight Restaurant](https://rajatsharma0087.github.io/green-delight-restaurant/)
+- **HTML5** - Semantic structure
+- **CSS3** - Modern styling
+  - Flexbox for layouts
+  - CSS Grid for menu cards
+  - Transitions & transforms
+  - Media queries for responsiveness
+- **Google Fonts** - Poppins font family
+- **Responsive Design** - Mobile-first approach
 
-## 📋 Sections
+## ✨ Features
+
+- 🎨 Beautiful gradient header design
+- 🧭 Responsive navigation menu
+- 🖼️ Flexbox image gallery with hover effects
+- 🍽️ Menu grid with 4 vegetarian dishes
+- 📝 Contact form with validation
+- 🗺️ Google Maps integration
+- 📱 Fully responsive (works on all devices)
+- 🎯 Smooth animations and transitions
+- 🔗 Social media links
+
+## 📸 Sections
+
 1. **Home** - Welcome section with image gallery
-2. **Menu** - Popular dishes with prices
+2. **Menu** - Popular dishes with pricing
+   - Paneer Butter Masala (₹250)
+   - Veg Biryani (₹180)
+   - Masala Dosa (₹120)
+   - Green Salad (₹80)
 3. **About** - Restaurant story and values
 4. **Contact** - Contact form and location map
 
-## 💡 What I Learned
-- Semantic HTML structure
-- Form handling
-- Embedding media (video, maps)
-- SEO meta tags
-- Accessibility best practices
+## 📚 Learning Journey
 
-## 🚀 Future Improvements
-- [ ] Add CSS styling
-- [ ] Make it fully responsive
-- [ ] Add JavaScript interactivity
-- [ ] Online ordering system
+| Day | Focus | Skills Learned |
+|-----|-------|----------------|
+| Day 1 | HTML | Semantic tags, Forms, Images, SEO |
+| Day 2 | CSS | Flexbox, Responsive design, Animations |
 
-## 👨‍💻 Author
-**Rajat Sharma**
-- Email: rajatsharma8087@gmail.com
-- GitHub: [@Rajatsharma0087](https://github.com/Rajatsharma0087)
+## 🌐 Live Demo
 
-## 📄 License
-This project is open source and available for learning purposes.
+👉 **[View Live Website](https://rajatsharma0087.github.io/green-delight-restaurant/)**
+
+## 💻 Local Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/Rajatsharma0087/green-delight-restaurant.git
+
+# Navigate to project
+cd green-delight-restaurant
+
+# Open in browser
+open index.html
