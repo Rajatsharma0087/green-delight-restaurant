@@ -1,0 +1,40 @@
+// Green Delight Restaurant - JavaScript
+console.log('Green Delight loaded! 🍃');
+
+document.addEventListener('DOMContentLoaded', function() {
+  
+  // Smooth scrolling for navigation
+  let navLinks = document.querySelectorAll('nav a');
+  
+  navLinks.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      let href = this.getAttribute('href');
+      
+      if (href && href.startsWith('#')) {
+        e.preventDefault();
+        let target = document.querySelector(href);
+        
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      }
+    });
+  });
+  
+  // Form validation
+  let form = document.querySelector('form');
+  
+  if (form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      let name = document.querySelector('input[name="name"]').value;
+      alert('Thanks ' + name + '! We will contact you soon! 🍃');
+      form.reset();
+    });
+  }
+  
+  console.log('All features loaded! ✨');
+});
