@@ -1,78 +1,107 @@
-# 🍃 Green Delight Restaurant
+# 🍃 Green Delight Restaurant - Premium Food Delivery Website
 
-A modern, fully responsive vegetarian restaurant website built with HTML5 and CSS3.
+A modern, fully responsive restaurant website featuring an interactive menu, image gallery with lightbox, customer reviews, animated statistics, and contact form. Built with vanilla HTML, CSS, and JavaScript - no frameworks required.
 
-![Green Delight Preview](https://via.placeholder.com/800x400/27ae60/ffffff?text=Green+Delight+Restaurant)
+![Green Delight Restaurant](https://img.shields.io/badge/Green%20Delight-Restaurant-2ecc71?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-2.0-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
-## 🚀 Latest Updates
+## 🚀 Live Demo
 
-### Day 2 - CSS & Flexbox Implementation
-- ✅ Professional CSS styling with modern design
-- ✅ Flexbox layouts for navigation, gallery, and menu
-- ✅ Responsive design (mobile, tablet, desktop)
-- ✅ Smooth animations and hover effects
-- ✅ Google Fonts integration (Poppins)
-- ✅ Enhanced user experience
+**[View Live Website](https://rajatsharma0087.github.io/green-delight-restaurant/)**
 
-### Day 1 - HTML Structure
-- ✅ Semantic HTML5 markup
-- ✅ Contact form with validation
-- ✅ Google Maps integration
-- ✅ SEO optimized meta tags
+## 📸 Screenshots
 
-## 🛠️ Technologies Used
+### Desktop View
+![Desktop Homepage](screenshots/desktop-home.png)
+![Menu Section](screenshots/menu-section.png)
 
-- **HTML5** - Semantic structure
-- **CSS3** - Modern styling
-  - Flexbox for layouts
-  - CSS Grid for menu cards
-  - Transitions & transforms
-  - Media queries for responsiveness
-- **Google Fonts** - Poppins font family
-- **Responsive Design** - Mobile-first approach
+### Mobile View
+![Mobile Responsive](screenshots/mobile-view.png)
+
+### Features Preview
+![Gallery Lightbox](screenshots/lightbox-feature.png)
+
+---
 
 ## ✨ Features
 
-- 🎨 Beautiful gradient header design
-- 🧭 Responsive navigation menu
-- 🖼️ Flexbox image gallery with hover effects
-- 🍽️ Menu grid with 4 vegetarian dishes
-- 📝 Contact form with validation
-- 🗺️ Google Maps integration
-- 📱 Fully responsive (works on all devices)
-- 🎯 Smooth animations and transitions
-- 🔗 Social media links
+### 🎨 User Interface
+- ✅ **Modern Design** - Clean, professional layout with green nature theme
+- ✅ **Fully Responsive** - Perfect display on mobile, tablet, and desktop
+- ✅ **Loading Animation** - Smooth loading screen on page load
+- ✅ **Smooth Scroll** - Elegant navigation between sections
+- ✅ **Sticky Navigation** - Always-accessible menu bar
+- ✅ **Mobile Menu** - Hamburger menu for mobile devices
 
-## 📸 Sections
+### 🍽️ Menu Section
+- ✅ **Filterable Menu** - Sort by Salads, Bowls, Smoothies, Desserts
+- ✅ **Smooth Transitions** - Animated card filtering
+- ✅ **Menu Cards** - Detailed item cards with:
+  - High-quality food images
+  - Ratings and reviews
+  - Calorie information
+  - Dietary tags (Vegan, Vegetarian)
+  - "Add to Cart" functionality
+  - Price display
 
-1. **Home** - Welcome section with image gallery
-2. **Menu** - Popular dishes with pricing
-   - Paneer Butter Masala (₹250)
-   - Veg Biryani (₹180)
-   - Masala Dosa (₹120)
-   - Green Salad (₹80)
-3. **About** - Restaurant story and values
-4. **Contact** - Contact form and location map
+### 🖼️ Gallery
+- ✅ **Image Grid** - Responsive photo gallery
+- ✅ **Lightbox Viewer** - Full-screen image preview
+- ✅ **Navigation** - Keyboard & button navigation (←/→ arrows)
+- ✅ **Zoom Effect** - Hover animations
+- ✅ **Lazy Loading** - Optimized image loading
 
-## 📚 Learning Journey
+### 📊 Dynamic Features
+- ✅ **Animated Statistics** - Counter animation on scroll
+  - 500+ Happy Customers
+  - 50+ Menu Items
+  - 15+ Awards Won
+  - 4.9★ Average Rating
+- ✅ **Customer Reviews** - Real testimonials with star ratings
+- ✅ **Scroll Animations** - Elements fade in on scroll
 
-| Day | Focus | Skills Learned |
-|-----|-------|----------------|
-| Day 1 | HTML | Semantic tags, Forms, Images, SEO |
-| Day 2 | CSS | Flexbox, Responsive design, Animations |
+### 📧 Contact Section
+- ✅ **Contact Form** - Functional with validation
+- ✅ **FormSpree Integration** - Easy email delivery
+- ✅ **Contact Information** - Address, phone, email, hours
+- ✅ **Social Media Links** - Facebook, Instagram, Twitter, YouTube
+- ✅ **Google Maps Ready** - Location display capability
 
-## 🌐 Live Demo
+### 🎯 Additional Features
+- ✅ **Newsletter Subscription** - Email capture in footer
+- ✅ **Scroll to Top Button** - Quick navigation
+- ✅ **Call-to-Action Sections** - Strategic conversion points
+- ✅ **SEO Optimized** - Meta tags, Open Graph, semantic HTML
+- ✅ **Accessibility** - ARIA labels, keyboard navigation
+- ✅ **Performance** - Optimized images, lazy loading
 
-👉 **[View Live Website](https://rajatsharma0087.github.io/green-delight-restaurant/)**
+---
 
-## 💻 Local Setup
+## 🛠️ Built With
 
-```bash
-# Clone the repository
-git clone https://github.com/Rajatsharma0087/green-delight-restaurant.git
+### Frontend Technologies
+- **HTML5** - Semantic markup structure
+- **CSS3** - Modern styling with advanced features
+  - CSS Grid & Flexbox layouts
+  - CSS Variables (custom properties)
+  - CSS Animations & Transitions
+  - Media Queries (responsive design)
+  - Keyframe animations
+- **Vanilla JavaScript (ES6+)** - No frameworks needed
+  - DOM Manipulation
+  - Event Listeners
+  - IntersectionObserver API
+  - Smooth scrolling
+  - Form validation
+  - LocalStorage (for future features)
 
-# Navigate to project
-cd green-delight-restaurant
+### External Resources
+- **Font Awesome 6.4.0** - Icon library
+- **Google Fonts** - Poppins & Playfair Display
+- **Unsplash API** - High-quality food images
+- **FormSpree** - Form backend service
 
-# Open in browser
-open index.html
+---
+
+## 📂 Project Structure
